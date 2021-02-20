@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>My JS Projects</title>
+
+		<style>
+			body {
+				margin: 10px;
+			}
+		</style>
+
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a href="flipper.html">Background color flipper</a>
+			</li>
+			<li>
+				<a href="counter.html">Score Counter</a>
+			</li>
+		</ul>
+
+
+	<script type="text/javascript">
+        function word(text){
+            var result = []
+
+            for(let i=0; i<text.length; i++){
+                var count = 0;
+
+                var letter = text[i]
+                for(let j=0; j<text.length; j++){
+                    if(letter == text[j]){
+                        count++ 
+                        
+                    }
+                    result[text[i]] = count
+                }
+            }
+            return result;
+        }
+    </script>
+
+	</body>
+</html>
